@@ -1,0 +1,147 @@
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin-top: 100px;
+  margin-bottom: 0;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 0;
+  color: #66BFBF;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: 700;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: #11999E
+}
+
+/*########################## Class Selector ###########################*/
+
+.text-container {
+  margin: 0 auto;
+  width: 30%;
+}
+
+.top-container {
+  position: relative;
+  background-color: #EAF6F6;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  position: relative;
+  background-color: #66BFBF;
+  line-height: 4;
+  padding: 30px;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.normal-font-weight {
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.web-dev-img {
+  height: 30%;
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.mobile-dev-image {
+  height: 30%;
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.personal-pic {
+  margin: 30px 0 30px 0;
+  height:200px;
+  width: 200px;
+}
+
+.self-description {
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+}
+
+.hr-design {
+  margin: 100px auto;
+  width: 5%;
+  border-style: dotted none none;
+  border-width: 8px;
+  border-color: grey;
+}
+
+.footer-link {
+  color: #11999E;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.footer-copyright-text {
+  color: #EAF6F6;
+  font-size: 12px;
+}
+
+.btn {
+  margin: 60px auto;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 5px;
+   font-family: Arial;
+   color: white;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px 20px;
+   background-color: #66BFBF;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
